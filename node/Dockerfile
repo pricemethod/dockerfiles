@@ -18,4 +18,4 @@ RUN apt-get update && \
      rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-ADD node-scripts /app
+ADD ./scripts /app
