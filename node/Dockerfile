@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:12
 
 # install chamber
 ENV CHAMBER_VERSION 2.0.0
